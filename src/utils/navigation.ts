@@ -1,4 +1,4 @@
-import { routes, RouteConfig } from '../config/routes'
+import { routes, type RouteConfig } from '../config/routes'
 
 /**
  * Get the current page title based on the current path

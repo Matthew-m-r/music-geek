@@ -13,7 +13,7 @@ const Breadcrumbs = () => {
         <li>
           <span className="hover:text-gray-300">🏠</span>
         </li>
-        {breadcrumbs.map((breadcrumb, index) => (
+        {breadcrumbs.map((breadcrumb) => (
           <li key={breadcrumb.path} className="flex items-center">
             <span className="mx-2 text-gray-500">/</span>
             <span className="text-blue-400 font-medium">
