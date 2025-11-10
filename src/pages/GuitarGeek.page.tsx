@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Accordion from "../components/Accordion";
 import AccordionQuestions from "../components/AccordionQuestions";
 import CustomButton from "../components/CustomButton"
@@ -11,6 +12,10 @@ import charlieImg from "/src/assets/guitarGeek/18 - charlie desvanecido.webp";
 import { IoMusicalNotes } from "react-icons/io5";
 
 const GuitarGeekPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="leading-[22px]">
       <div className="flex flex-col ">

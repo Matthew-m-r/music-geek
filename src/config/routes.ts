@@ -25,6 +25,14 @@ export const routes: RouteConfig[] = [
     exact: true
   },
   {
+    path: '/music-geek',
+    name: 'Home',
+    component: HomePage,
+    description: 'Welcome to Music Geek - Your ultimate destination for music theory and guitar learning',
+    icon: '🏠',
+    exact: true
+  },
+  {
     path: '/guitar',
     name: 'Guitar Geek',
     component: GuitarGeekPage,
