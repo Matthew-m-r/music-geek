@@ -20,8 +20,8 @@ const GuitarGeekPage = () => {
     <div className="leading-[22px]">
       <div className="flex flex-col ">
         <section className="flex flex-col py-5 px-10">
-          <div className="flex flex-col my-2 py-5 text-center gap-2">
-            <div className="leading">
+          <div className="flex flex-col py-5 text-center gap-2">
+            <div className="leading-6">
               <h4 className="font-bold text-2xl">¡Todo lo que necesitas para</h4>
               <h4 className="text-red-600 font-bold text-2xl">aprender guitarra eléctrica desde cero!</h4>
             </div>

@@ -1,22 +1,22 @@
 import musicGeekLogo from '../assets/home/music-geek-logo.png'
 import TheoryGeekPage from '../assets/home/theory-card.webp'
 import musicGeekPage from '../assets/home/guitar-card.webp'
-import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
     <div className="text-center gap-2 flex flex-col">
       <img src={musicGeekLogo} alt="logo" className="w-[80%] mx-auto mb-3" />
 
-      <h1 className="text-[20px] font-bold mt-3 mb-7 w-[80%] m-auto leading-6">Transforma tu pasion por la musica en habilidades reales</h1>
+      <h1 className="text-2xl font-bold mb-6 w-[80%] m-auto leading-7">Transforma tu pasion por la musica en habilidades reales</h1>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        <Link to={'/theory'} className="w-[80%] m-auto">
+        <a href="/theory" className="w-[80%] m-auto">
           <img src={TheoryGeekPage} style={{ cursor: 'pointer' }} alt="Theory Geek" />
-        </Link>
-        <Link to={'/guitar'} className="w-[80%] m-auto">
+        </a>
+
+        <a href="/guitar" className="w-[80%] m-auto">
           <img src={musicGeekPage} style={{ cursor: 'pointer' }} alt="Theory Geek" />
-        </Link>
+        </a>
 
         <hr className="w-full border-white border-opacity-50 my-8" />
 

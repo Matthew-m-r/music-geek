@@ -14,7 +14,7 @@ const Navigation = () => {
           <div className="flex items-center">
             {homeRoute && (
               <Link
-                to={homeRoute.path}
+                to={'/'}
                 className="text-xl font-bold text-blue-400 hover:text-blue-300 transition-colors"
                 title={homeRoute.description}
               >
